@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Loen su külastusi!</title>
+ <script src="script.js"></script> 
+<link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+
+<h1>Käid siin tihti?</h1>
+<div id = box>
+
+<p>Php funktsioon arvab, et sa oled <b> viimasel aasta </b>jooksul (kui cookied kenasti alles), siin leheküljel käinud <b><?php echo $visits ?> </b> korda.</p>
+
+<p> Php funktsioon arvab, et <b> selle sessiooni </b> ajal oled sa siin leheküljel käinud <b><span id=visits> <?php echo $thistimevisits ?></span> </b>korda.</p>
+</div>
+
+</body>
+</html> 
